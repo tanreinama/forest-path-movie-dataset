@@ -1,4 +1,5 @@
 # forest-path-movie-dataset
+
 Forest Path Movie Data Set
 
 
@@ -11,7 +12,7 @@ The video was divided into scenes that are 36 to 456 frames length.
 
 Each scene is tagged by whether or not a person is in it.
 
-Person move in the trail road. Depending on the frame, it may be hidden behind the tree and disappear from the camera. Therefore, you may need to track the object.
+Person move in the trail road. Depending on the frame, it may be hidden behind the tree and disappear from the camera. Therefore, you need to create a lowpass filter if necessary. 
 
 Depending on the time of day, the amount of light is insufficient and the video is noisy.
 Especially in the midnight, the amount of light is decisively insufficient in some scenes, making it difficult to identify a person.
@@ -27,7 +28,7 @@ The portrait right of the person has been abandoned.
 
 それぞれのシーンには、人がいるかどうかでタグが付けられています。
 
-散策路の中を人が移動するので、フレームによっては、木の陰に隠れてカメラから消えてしまうこともあります。そのため、対象物を追跡する必要があります。
+散策路の中を人が移動するので、フレームによっては、木の陰に隠れてカメラから消えてしまうこともあります。そのため、必要に応じてローパスフィルタを適用する必要があります。
 
 時間帯によっては、光量が足りず、映像がノイジーです。
 特に深夜はシーンによっては決定的に光量が不足しており、人物の特定が困難になります。
